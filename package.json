@@ -12,6 +12,7 @@
     "url": "git+https://github.com/mrunlockedtech-odin/intro-to-express.git"
   },
   "author": "",
+  "type": "module",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/mrunlockedtech-odin/intro-to-express/issues"
