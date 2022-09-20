@@ -8,13 +8,21 @@ const app = express()
 
 // Configure the app (app.set)
 
-
+app.set('view engine', 'ejs')
 
 // Mount Middleware (app.use)
 
 
 
 // Mount routes
+
+app.get('/home', function(req,res){
+  res.render('home')
+})
+
+// app.get('/',function(req,res){
+//   res.send('<h1>Test Server</h1>')
+// })
 
 
 
