@@ -19,6 +19,9 @@ app.set('view engine', 'ejs')
 app.get('/home', function(req,res){
   res.render('home')
 })
+app.get('/',function(req,res){
+  res.redirect('home')
+})
 
 // app.get('/',function(req,res){
 //   res.send('<h1>Test Server</h1>')
